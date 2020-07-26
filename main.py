@@ -28,7 +28,7 @@ class FullScreenApp(object):
 
 
 def opensettings():
-    os.system('python settings.py')
+    os.system('python apps/settings.py')
 
 
 BtnSettings = Button(root, text="Settings", command=opensettings)
@@ -46,6 +46,7 @@ def openweb():
 Btn = Button(root, text="  Netflix ", command=openweb, fg='#b30000')
 Btn.pack()
 
+
 new1 = 1
 url1 = "https://www.youtube.com/"
 
@@ -53,6 +54,9 @@ url1 = "https://www.youtube.com/"
 def openweb():
     webbrowser.open(url1, new=new1)
 
+
+Btn = Button(root, text="Youtube", command=openweb, fg='#ff0000')
+Btn.pack()
 
 app = FullScreenApp(root)
 root.mainloop()

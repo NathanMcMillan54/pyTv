@@ -1,4 +1,5 @@
 from tkinter import *
+import os
 import webbrowser
 
 root = Tk()
@@ -8,6 +9,14 @@ root.configure(background='#e6e6e6')
 L = Label(root, text="Settings")
 L.config(font=("Courier", 14))
 L.pack()
+
+
+def shutdown():
+    os.system('sh shellscripts/shutdown.sh')
+
+
+Btn = Button(root, text="Shutdown", fg='#f44336', command=shutdown)
+Btn.pack()
 
 
 new = 1

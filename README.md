@@ -7,8 +7,18 @@ for more information on how to add more apps to pyTv.
 #
 # Setup 
 
+Make a virtual environment
+```shell script
+python3 -m venv env
+source env/bin/activate
+```
+
+Start the app
 ```shell script
 python main.py
 ```
 
+#
+# Website
 
+[https://sbfomos.org/pytv](https://sbfomos.org/pytv)
