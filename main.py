@@ -32,6 +32,10 @@ def opensettings():
     os.system('python apps/settings.py')
 
 
+def openSnake():
+    os.system('python apps/snake.py')
+
+
 t = time.localtime()
 # 'a' is for short name of week day, 'd' is for day of month, 'B' is for month name, 'Y' is for year number
 current_time = time.strftime("%a, %d, %B, %Y", t)
@@ -43,6 +47,11 @@ L.pack()
 
 BtnSettings = Button(root, text="Settings", command=opensettings)
 BtnSettings.pack()
+
+
+BtnSettings = Button(root, text="  Snake  ", command=openSnake, fg='#00ff00')
+BtnSettings.pack()
+
 
 new0 = 0
 url0 = "https://www.netflix.com/"

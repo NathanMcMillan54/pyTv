@@ -13,6 +13,11 @@ python3 -m venv env
 source env/bin/activate
 ```
 
+Install requirements
+```shell script
+pip install requirements.txt
+```
+
 Start the app
 ```shell script
 python main.py
