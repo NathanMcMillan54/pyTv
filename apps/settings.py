@@ -43,7 +43,7 @@ def openweb():
     webbrowser.open(url, new=new)
 
 
-Btn = Button(root, text="Help", command=openweb, fg='#0066ff')
+Btn = Button(root, text="    Help    ", command=openweb, fg='#0066ff')
 Btn.pack()
 
 

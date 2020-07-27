@@ -31,6 +31,20 @@ Start the app
 python main.py
 ```
 
+If you want to run pyTv on startup
+Recommend that you use a RaspberryPi running some version of Linux 
+```shell script
+cd /etc/profile.d/
+sudo touch strtPyTv.sh
+sudo nano strtPyTv.sh
+```
+
+```shell script
+#!/usr/bin/env bash
+cd home/yourUserName/Desktop/pyTv/shellscripts
+sh runPytv.sh
+```
+
 #
 # Website
 
