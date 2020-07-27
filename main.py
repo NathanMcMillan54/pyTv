@@ -1,6 +1,8 @@
 from tkinter import *
+import time
 import webbrowser
 import os
+import threading
 
 print("Starting pyTv...")
 print("Loading apps...")
@@ -31,8 +33,16 @@ def opensettings():
     os.system('python apps/settings.py')
 
 
+t = time.localtime()
+# 'a' is for short name of week day, 'd' is for day of month, 'B' is for month name, 'Y' is for year number
+current_time = time.strftime("%a, %d, %B, %Y", t)
+
+
+L = Label(root, text=current_time)
+L.config(font=("Courier", 14))
+L.pack()
+
 BtnSettings = Button(root, text="Settings", command=opensettings)
-BtnSettings.grid(row=0, column=0)
 BtnSettings.pack()
 
 new0 = 0
