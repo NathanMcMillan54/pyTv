@@ -31,7 +31,7 @@ Btn = Button(root, text=" Restart  ", fg='#ff751a', command=restart)
 Btn.pack()
 
 
-Btn = Button(root, text="  Update ", fg='#00ff00', command=shutdown)
+Btn = Button(root, text="  Update ", fg='#00ff00', command=update)
 Btn.pack()
 
 

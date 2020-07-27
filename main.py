@@ -2,7 +2,6 @@ from tkinter import *
 import time
 import webbrowser
 import os
-import threading
 
 print("Starting pyTv...")
 print("Loading apps...")
