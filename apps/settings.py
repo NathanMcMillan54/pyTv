@@ -11,6 +11,14 @@ L.config(font=("Courier", 14))
 L.pack()
 
 
+def weatherOn():
+    weather = open("shellscripts/weather.sh", "r+")
+    weather.read()
+    add = ["python ../apps/weather.py"]
+    weather.writelines(add)
+    weather.read()
+
+
 def shutdown():
     os.system('sh shellscripts/shutdown.sh')
 
