@@ -12,7 +12,7 @@ L.pack()
 
 
 def weatherOn():
-    weather = open("shellscripts/weather.sh", "r+")
+    weather = open("../shellscripts/weather.sh", "r+")
     weather.read()
     add = ["python ../apps/weather.py"]
     weather.writelines(add)

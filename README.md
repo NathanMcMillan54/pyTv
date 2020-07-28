@@ -32,6 +32,7 @@ python main.py
 ```
 
 If you want to run pyTv on startup
+
 Recommend that you use a RaspberryPi running some version of Linux 
 ```shell script
 cd /etc/profile.d/
