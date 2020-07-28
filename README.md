@@ -31,6 +31,13 @@ Start the app
 python main.py
 ```
 
+If you want to add weather click the link here:
+
+It'll explain how to set it up
+```shell script
+apps/settings line 4
+```
+
 If you want to run pyTv on startup
 
 Recommend that you use a RaspberryPi running some version of Linux 
