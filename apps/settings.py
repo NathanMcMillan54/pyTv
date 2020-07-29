@@ -11,8 +11,8 @@ L.config(font=("Courier", 14))
 L.pack()
 
 
-def weatherOn():
-    weather = open("../shellscripts/weather.sh", "r+")
+def addWeather():
+    weather = open("shellscripts/weather.sh", "r+")
     weather.read()
     add = ["python ../apps/weather.py"]
     weather.writelines(add)
@@ -42,6 +42,9 @@ Btn.pack()
 Btn = Button(root, text="  Update ", fg='#00ff00', command=update)
 Btn.pack()
 
+
+Btn = Button(root, text="Add weather", fg='#0099ff', command=addWeather)
+Btn.pack()
 
 new = 1
 url = "https://sbfomos.org/pytv"
