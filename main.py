@@ -1,4 +1,3 @@
-# import Tk as Tk
 from tkinter import *
 import time
 import webbrowser
