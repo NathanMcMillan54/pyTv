@@ -1,3 +1,4 @@
+# import Tk as Tk
 from tkinter import *
 import time
 import webbrowser
@@ -29,11 +30,11 @@ class FullScreenApp(object):
 
 
 def opensettings():
-    os.system('python apps/settings.py')
+    os.system('python3 apps/settings.py')
 
 
 def openSnake():
-    os.system('python apps/snake.py')
+    os.system('python3 apps/snake.py')
 
 
 t = time.localtime()

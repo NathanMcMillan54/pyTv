@@ -26,7 +26,7 @@ source env/bin/activate
 
 Install requirements
 ```shell script
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Start the app
@@ -47,7 +47,7 @@ sudo nano strtPyTv.sh
 
 ```shell script
 #!/usr/bin/env bash
-cd home/yourUserName/Desktop/pyTv/shellscripts
+cd home/yourUserName/Desktop/pyTv/
 sh runPytv.sh
 ```
 
