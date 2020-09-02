@@ -12,9 +12,6 @@ You can find the code for Snake here:
 apps/snake.py
 ```
 
-A lot of pyTv you have to setup yourself, this will help you learn the basics of python.
-An example of how you will learn some python is setting up the weather app. (Available on pyTv v1.2)
-
 #
 # Setup 
 
@@ -33,8 +30,6 @@ Start the app
 ```shell script
 python main.py
 ```
-
-If you want to add weather click this link [https://www.youtube.com/watch?v=r9ZeTBsbMQo&t=103s](https://www.youtube.com/watch?v=r9ZeTBsbMQo&t=103s) it'll explain how to set it up.
 
 If you want to run pyTv on startup
 
