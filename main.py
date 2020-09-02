@@ -76,7 +76,5 @@ def openweb():
 Btn = Button(root, text="Youtube", command=openweb, fg='#ff0000')
 Btn.pack()
 
-os.system('sh shellscripts/weather.sh')
-
 app = FullScreenApp(root)
 root.mainloop()

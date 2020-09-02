@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-	shutdown -P now
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-	osascript -e 'tell application "System Events" to shut down'
-fi
+# this is only for linux
+echo "Shutting down..."
+shutdown -P now

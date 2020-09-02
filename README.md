@@ -40,9 +40,10 @@ sudo touch strtPyTv.sh
 sudo nano strtPyTv.sh
 ```
 
+In ``strtPyTv.sh`` write:
 ```shell script
 #!/usr/bin/env bash
-cd home/yourUserName/Desktop/pyTv/
+cd home/$USER/Desktop/pyTv/
 sh runPytv.sh
 ```
 
