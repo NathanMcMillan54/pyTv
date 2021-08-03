@@ -1,8 +1,7 @@
 # About
 This is a python GUI made with Tkinter, it's just for showing a list of streaming services like a smart TV would do.
 
-You can add your own apps to pyTv, Netflix and YouTube are already on pyTv. Go to [https://sbfomos.org/pytv](https://sbfomos.org/pytv) 
-for more information on how to add more apps to pyTv.
+You can add your own apps to pyTv, Netflix and YouTube are already on pyTv.
 
 You can now play Snake on pyTv v1.1, you can use it to make your own game or just play it all the time instead of actually 
 watching TV.
@@ -46,8 +45,3 @@ In ``strtPyTv.sh`` write:
 cd home/$USER/Desktop/pyTv/
 sh runPytv.sh
 ```
-
-#
-# Website
-
-[https://sbfomos.org/pytv](https://sbfomos.org/pytv)
